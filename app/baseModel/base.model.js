@@ -1,6 +1,6 @@
 const mongoose = require('../../common/services/mongoos.service').mongoose;
 //const Schema = mongoose.Schema;
-
+var 
 function getschema(name, dbschema)
 {
     return  mongoose.model(name, dbschema);
